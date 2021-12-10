@@ -62,6 +62,7 @@ local function init(c, config)
         NvimTreeGitRenamed = {fg = c.purple},
         NvimTreeGitNew = {fg = c.aqua},
         NvimTreeGitDeleted = {fg = c.red},
+        NvimTreeWindowPicker = {fg = c.fg0, bg = c.bg3, style = config.disable_bold and "NONE" or "bold"},
 
         -- undotree
         UndotreeSavedBig = {fg = c.purple, style = 'bold'},
