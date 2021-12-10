@@ -16,6 +16,7 @@ local function get_light_theme_palette()
         bg_diff_blue =     '#e0e9d3',
         bg_visual_blue =   '#d9e1cc',
         bg_visual_yellow = '#f9eabf',
+        bg_visual_aqua =   '#253a1f',
         bg_current_word =  '#f3eac7',
         grey0 =            '#a89984',
         grey1 =            '#928374',
