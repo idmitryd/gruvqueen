@@ -1,5 +1,9 @@
 local function init(c, _)
     local lsp = {
+        LspReferenceText = { bg = c.bg5, style = "bold" },
+        LspReferenceWrite = { bg = c.bg5, style = "bold" },
+        LspReferenceRead = { bg = c.bg5, style = "bold" },
+
         LspDiagnosticsFloatingError = {fg = c.red, bg = c.bg3, },
         LspDiagnosticsFloatingWarning = {fg = c.yellow, bg = c.bg3, },
         LspDiagnosticsFloatingInformation = {fg = c.blue, bg = c.bg3, },
