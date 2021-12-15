@@ -149,9 +149,9 @@ local function init(c, config)
         LspSagaCodeActionTruncateLine = { fg = c.fg0, },
 
         -- Hop
-        HopNextKey = { fg = c.orange, style = "bold"  },
-        HopNextKey1 = { fg = c.green, style = "bold" },
-        HopNextKey2 = { fg = c.aqua, style = "bold" },
+        HopNextKey = { fg = c.orange, style = "bold,italic"  },
+        HopNextKey1 = { fg = c.green, style = "bold,italic" },
+        HopNextKey2 = { fg = c.aqua, style = "bold,italic" },
 
         -- Notify
         NotifyERRORBorder = { fg = c.red, },
